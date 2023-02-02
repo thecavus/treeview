@@ -1,0 +1,31 @@
+.mitch-d3-tree {
+	&.circle-tree {
+        &.default {
+			.link {
+				fill: none;
+				stroke: rgb(177, 253, 0);
+				stroke-width: 2px;
+            }
+            .node {
+				&.collapsed circle {
+					fill: rgb(119, 0, 255);	
+				}
+	
+				&.selected circle {
+					stroke: #fffb00;
+					stroke-width: 2.5px;
+				}
+
+                circle {
+                    fill: #fff;
+                    stroke: rgb(235, 8, 148);
+                    stroke-width: 3px;
+                }
+    
+                text {
+                    font: 12px sans-serif;
+                }
+            }
+        }
+    }
+}
